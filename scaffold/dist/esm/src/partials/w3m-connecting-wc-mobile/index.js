@@ -42,7 +42,7 @@ let W3mConnectingWcMobile = class W3mConnectingWcMobile extends W3mConnectingWid
                 ConnectionController.setRecentWallet(this.wallet);
                 CoreHelperUtil.openHref(redirect, '_self');
 
-                console.log("ididid", id);
+                console.log("id wallet", id);
             }
             catch {
                 this.error = true;
